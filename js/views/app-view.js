@@ -99,6 +99,7 @@ var app = app || {};
 			return {
 				title: this.$input.val().trim(),
 				order: app.todos.nextOrder(),
+				priority: false,
 				completed: false
 			};
 		},
